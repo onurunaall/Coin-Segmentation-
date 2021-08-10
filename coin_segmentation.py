@@ -87,17 +87,3 @@ for i in range(len(contours)):
     if hierarchy[0][i][3] == -1:
         cv2.drawContours(coin, contours,i,(255,0,0),2)
 plt.figure(),plt.imshow(coin),plt.axis("off")
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
